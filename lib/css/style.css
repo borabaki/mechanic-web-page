@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
+
+body{
+    background-color: #eee;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+#navbar{
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 100%;
+    z-index: 5;
+}
+#navbar a{
+    font-weight: bolder;
+}
+#navbar svg{
+    margin-top: 2%;
+}
+#navbar img{
+    width: 200px;
+}
+@media screen and (max-width: 912px){
+    #navbar img{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 912px){
+    #navbar-opt{
+        background-color: #eee;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+#banner-left{
+    border: none;
+    background-color: #7C3E66;
+}
+#banner-left img{
+    width: 95%;
+    box-shadow: 10px 10px;
+    align-items: right;
+}
+#banner-right{
+    border: none;
+    background-color: #7C3E66;
+}
+#banner-right h2{
+    font-size: 40px;
+    margin-top: 10%;
+    font-weight: bolder;
+    color: white;
+}
+#banner-right p{
+    font-size: 25px;
+    color: white;
+}
+.contact-btn{
+    border-radius: 10px;
+    color: white;
+    background-color: #243A73;
+    border: none;
+    padding: 10px;
+}
+
+
+
+#about{
+    margin-top: 2%;
+}
+#about-left{
+    border: none;
+    background-color: #eee;
+    align-items: center;
+}
+@media screen and (max-width: 600px){
+    #about-left img{
+        width: 350px;
+    }
+}
+#about-right{
+    background-color: #eee;
+    border: none;
+    z-index: -1;
+}
+#about-right h3{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+#wcu-left{
+    border: none;
+    background-color: #eee;
+    text-align: center;
+}
+#wcu-left h3{
+    color: black;
+    font-weight: 500;
+    padding: 5%;
+}
+#wcu-left p{
+    color: black;
+    font-weight: 500;
+    padding: 0;
+}
+#wcu-right{
+    border: none;
+    background-color: #eee;
+    text-align: center;
+}
+#wcu-right h3{
+    color: black;
+    font-weight: 500;
+    padding: 5%;
+}
+#wcu-right p{
+    color: black;
+    font-weight: 500;
+    padding: 0;
+}
+
+
+
+.box img{
+    width: 150px;
+    margin-left: 3%;
+}
+
+
+
+.comments{
+    background-color: #243A73;
+    background-position: center;
+    padding: 50px;
+    margin-top: 5%;
+    color: white;
+}
+#com-card{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 0;
+    box-shadow: 5px 5px #F2EBE9;
+}
+#com-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+#footer{
+    position: absolute;
+    bottom: 0;
+}
